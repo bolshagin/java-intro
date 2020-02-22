@@ -6,8 +6,7 @@ public class StackTrace {
 
         try {
             res = ste[2].getClassName() + '#' + ste[2].getMethodName();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             return null;
         }
 
